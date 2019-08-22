@@ -3,15 +3,14 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "gretel.my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Gretel",
+      "identifier": "gretel.export-slices",
+      "script": "./gretel.js",
+      "handlers" : {
+        "actions": {
+          "ExportSlices": "onExportSlices"
+        }
+      }
     }
-  ],
-  "menu": {
-    "title": "Gretel",
-    "items": [
-      "gretel.my-command-identifier"
-    ]
-  }
+  ]
 }
