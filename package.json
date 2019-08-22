@@ -1,6 +1,6 @@
 {
   "name": "gretel",
-  "description": "A Sketch plugin that flattens files after exporting.",
+  "description": "A Sketch plugin that flattens nested files after exporting.",
   "version": "0.2.0",
   "repository": {
     "type": "git",

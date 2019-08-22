@@ -3,7 +3,7 @@
 [![build](https://travis-ci.org/StyleShare/Gretel.svg?branch=master)](https://travis-ci.org/StyleShare/Gretel)
 [![release](http://img.shields.io/github/release/StyleShare/Gretel.svg)](https://github.com/StyleShare/Gretel/releases)
 
-Gretel is a Sketch plugin that flattens files after exporting.
+Gretel is a Sketch plugin that flattens nested files after exporting.
 
 For example:
 
