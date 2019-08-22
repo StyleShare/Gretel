@@ -11,9 +11,9 @@
     "sketch": ">=49.0"
   },
   "skpm": {
-    "name": "gretel",
+    "name": "Gretel",
     "manifest": "src/manifest.json",
-    "main": "gretel.sketchplugin",
+    "main": "Gretel.sketchplugin",
     "assets": [
       "assets/**/*"
     ],
