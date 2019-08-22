@@ -13,3 +13,8 @@ For example:
 + icons/ic_feed_fill_24@2x.png
 + icons/ic_feed_fill_24@3x.png
 ```
+
+## Installation
+
+1. Download the latest plugin at [here](https://github.com/StyleShare/Gretel/releases/latest).
+2. Unzip it and open the `Gretel.sketchplugin` file.
