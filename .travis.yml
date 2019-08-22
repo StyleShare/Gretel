@@ -1,0 +1,24 @@
+os: osx
+osx_image: xcode10.3
+
+language: node_js
+node_js:
+  - node
+
+cache:
+  directories:
+    - node_modules
+    - $HOME/Library/Caches/Homebrew
+
+before_install:
+  - HOMEBREW_NO_AUTO_UPDATE=1 brew cask install sketch
+  - mkdir -p "~/Library/Application Support/com.bohemiancoding.sketch3/Plugins"
+
+install:
+  - set -o pipefail
+  - defaults write com.bohemiancoding.sketch3 AlwaysReloadScript -bool YES
+  - yarn --dev
+
+script:
+  - /Applications/Sketch.app/Contents/MacOS/Sketch >/dev/null 2>&1 &
+  - yarn test --app=/Applications/Sketch.app
