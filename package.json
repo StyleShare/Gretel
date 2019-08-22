@@ -1,7 +1,12 @@
 {
   "name": "gretel",
-  "description": "",
-  "version": "0.1.0",
+  "description": "A Sketch plugin that flattens files after exporting.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StyleShare/Gretel.git"
+  },
+  "license": "MIT",
   "engines": {
     "sketch": ">=49.0"
   },
